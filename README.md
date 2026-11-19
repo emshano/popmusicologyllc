@@ -22,10 +22,10 @@ Upload the contents of this folder, keeping the same directory structure. `index
 
 - `index.html`: homepage.
 - `scholarship.html`: Dionne Warwick research and release-scholarship layout.
-- `students.html`: Fall 2024 and Spring 2025 student collections.
+- `students.html`: student writing track listings.
 - `releases.html`: tape label and future-release layout.
 - `about.html`: organization, founder, and contact details.
-- Other HTML files: individual reading pages for 14 supplied works/collections.
+- Other HTML files: individual reading pages for supplied works and student essays.
 - `styles.css`: responsive design, shared colors, typography, and print styles. Edit the variables at the top to adjust the palette.
 - `app.js`: mobile navigation.
 - `assets/`: favicon and manuscript images extracted from the supplied documents.
