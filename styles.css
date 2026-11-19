@@ -420,36 +420,33 @@ input {
   padding: 25px 0;
 }
 .release-layout {
-  display: grid;
-  grid-template-columns: 1fr 1.2fr;
-  gap: 7%;
+  display: flow-root;
   padding: 40px 0;
 }
-.image-placeholder {
-  background: #e4dcc5;
-  border: 1px dashed var(--muted);
-  aspect-ratio: 1.15;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 25px;
+.release-layout + .release-layout {
+  border-top: 1px solid var(--line);
 }
-.image-placeholder p {
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
-  font-size: 2.4rem;
-  line-height: 1.2;
-  margin: 20px 0;
-  font-weight: 700;
+.release-image {
+  display: block;
+  float: left;
+  width: 42%;
+  height: auto;
+  margin: 0 2rem 20px 0;
 }
-.image-placeholder small {
-  font-size: 0.875rem;
+.release-layout--reverse .release-image {
+  float: right;
+  margin: 0 0 20px 2rem;
 }
 .release-layout h2 {
-  margin-top: 18px;
+  margin: 18px 0 0;
   font-size: 2.5rem;
   font-weight: 800;
+}
+.release-artist {
+  margin: 0 0 20px;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 400;
 }
 blockquote {
   font: italic 1.65rem/1.4 "Poppins", Arial, Helvetica, sans-serif;
@@ -682,7 +679,6 @@ table {
     margin-top: 0;
   }
   .portal-grid,
-  .release-layout,
   .about-grid {
     grid-template-columns: 1fr;
   }
@@ -706,7 +702,17 @@ table {
     font-size: 2.6rem;
   }
   .release-layout {
+    display: flex;
+    flex-direction: column;
     gap: 30px;
+  }
+  .release-layout--reverse {
+    flex-direction: column-reverse;
+  }
+  .release-layout .release-image {
+    float: none;
+    width: 100%;
+    margin: 0;
   }
   .about-grid {
     gap: 25px;

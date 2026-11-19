@@ -38,7 +38,7 @@ To add an essay, copy an existing reading page and replace its title and article
 
 The design uses the brief's warm paper, burgundy, blue, archival chart numbering, and editorial typography. Website copy derives from the supplied brief. Supplied manuscripts retain their draft language; rendered text is not a fact-checked or copyedited publication. Embedded manuscript images appear after the text rather than in their original Word positions. Original downloads preserve original layout, footnotes, hyperlinks, and formatting.
 
-Cassette shell/J-card images were not supplied. The scholarship and label pages contain visibly identified image placeholders and the requested dummy text. Lysaker's actual framing questions were not supplied; their location is marked rather than inventing or attributing a quotation. Replace these before announcing releases. No release dates, prices, inventory, or catalog entries were invented.
+The release document supplied artist photos and biographies, which are now shown on the releases page; cassette shell/J-card artwork was not supplied. The scholarship and label pages contain visibly identified image placeholders and the requested dummy text. No release dates, prices, inventory, or catalog entries were invented.
 
 The tape label has no checkout or payment integration. Release inquiries open an email to the supplied contact. There is no mailing list or contact-form backend. PDFs and PowerPoint research are offered as downloads in their original formats. Student spreadsheet indexes and original Spring ZIP are preserved as downloads; submissions are also provided as reading pages when supplied as DOCX. Other file formats remain in the original ZIP.
 
