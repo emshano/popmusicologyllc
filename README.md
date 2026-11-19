@@ -4,7 +4,7 @@ A portable static website based on the supplied PopMusicology, LLC design brief.
 
 ## Preview locally
 
-Open `index.html` directly in your browser. Navigation, articles, search, and downloads work without a server.
+Open `index.html` directly in your browser. Navigation, articles, and downloads work without a server.
 
 Alternatively, from this folder on macOS:
 
@@ -21,19 +21,18 @@ Upload the contents of this folder, keeping the same directory structure. `index
 ## Files and editing
 
 - `index.html`: homepage.
-- `archive.html`: criticism archive, with working title/keyword search and collection filter.
 - `scholarship.html`: Dionne Warwick research and release-scholarship layout.
-- `students.html`: Fall 2024 and Spring 2025 student collections.
+- `students.html`: student writing track listings.
 - `releases.html`: tape label and future-release layout.
 - `about.html`: organization, founder, and contact details.
-- Other HTML files: individual reading pages for 14 supplied works/collections.
+- Other HTML files: individual reading pages for supplied works and student essays.
 - `styles.css`: responsive design, shared colors, typography, and print styles. Edit the variables at the top to adjust the palette.
-- `app.js`: mobile navigation and archive filtering.
+- `app.js`: mobile navigation.
 - `assets/`: favicon and manuscript images extracted from the supplied documents.
 - `downloads/`: original manuscripts, PDFs, presentation, spreadsheet indexes, and zipped student collection.
 - `content.json`: extracted content reference. Editing this does not automatically update the HTML.
 
-To add an essay, copy an existing reading page, replace its title and article text, and add a matching entry to the archive. Archive rows use `data-category` and lowercase `data-search` attributes for filtering. Shared navigation/footer appear in each HTML file; edit all pages if changing them.
+To add an essay, copy an existing reading page and replace its title and article text. Shared navigation/footer appear in each HTML file; edit all pages if changing them.
 
 ## Editorial decisions and remaining content
 

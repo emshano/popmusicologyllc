@@ -1,1 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" fill="#772b35"/><text x="16" y="24" text-anchor="middle" font-family="Georgia,serif" font-size="26" font-weight="bold" fill="#f4eedc">P</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Popmusicology red P favicon">
+  <path fill="#000000" d="M66 67H166V101C193 74 227 62 268 62C370 62 445 140 445 241C445 344 370 420 268 420C228 420 193 406 166 380V478H66Z"/>
+  <circle cx="268" cy="241" r="91" fill="#FF102B"/>
+</svg>

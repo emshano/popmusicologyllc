@@ -79,8 +79,9 @@ header {
 }
 .wordmark img {
   display: block;
-  width: auto;
+  width: 300px;
   max-width: 100%;
+  aspect-ratio: 2170 / 725;
   height: auto;
   margin-block: -20px;
   object-fit: contain;
@@ -273,6 +274,19 @@ h3 {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   margin-top: 0.12em;
 }
+.chart-list .chart-row {
+  align-items: center;
+}
+.chart-list .rank {
+  display: grid;
+  grid-template-columns: repeat(2, 0.9ch);
+  justify-items: center;
+  font-size: 3.2rem;
+  margin-top: 0;
+}
+.chart-list .rank span {
+  text-align: center;
+}
 .chart-row p {
   font-size: 0.84rem;
   max-width: 790px;
@@ -282,6 +296,19 @@ h3 {
 }
 .chart-row h3 {
   margin-top: 0;
+}
+.chart-list .chart-row h3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-bottom: 0;
+}
+.chart-list .track-artist {
+  align-self: flex-start;
+  font-size: 0.65em;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: left;
 }
 .format {
   font-size: 0.7rem;
@@ -347,7 +374,7 @@ footer {
   margin-top: 14px;
 }
 .page-heading {
-  padding: 55px 0 28px;
+  padding: 55px 0 5px;
   max-width: 1000px;
 }
 .page-heading h1 {
@@ -614,6 +641,9 @@ table {
   }
   .rank {
     font-size: 2rem;
+  }
+  .chart-list .rank {
+    font-size: 2.2rem;
   }
   .chart-row h3 {
     font-size: 1.35rem;
