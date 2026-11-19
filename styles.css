@@ -354,8 +354,8 @@ h3 {
   text-underline-offset: 5px;
 }
 footer {
-  background: var(--ink);
-  color: var(--paper);
+  background: #00a6f1;
+  color: var(--ink);
   padding: 45px 4%;
   display: grid;
   grid-template-columns: 1.5fr 1fr 1fr;
@@ -364,9 +364,14 @@ footer {
   border-top: 4px solid var(--red);
 }
 .footer-brand {
-  font: 800 2rem/1 "Poppins", Arial, Helvetica, sans-serif;
-  letter-spacing: -0.04em;
-  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer-logo {
+  display: block;
+  width: min(250px, 100%);
+  height: auto;
 }
 .footer-brand small {
   display: block;
@@ -479,6 +484,12 @@ blockquote {
   padding: 32px;
   align-self: start;
 }
+.founder-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 24px;
+}
 .founder .eyebrow {
   color: var(--paper);
 }
@@ -489,6 +500,28 @@ blockquote {
   border: 0;
   border-top: 1px solid #a0a9a6;
   margin: 25px 0;
+}
+.team-section {
+  padding: 25px 0;
+}
+.team-list .chart-row {
+  grid-template-columns: 72px minmax(0, 1fr);
+  align-items: start;
+}
+.team-list .rank {
+  font-size: 3.9rem;
+  line-height: 0.8;
+}
+.team-list .chart-row:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.team-row .team-bio {
+  max-width: 900px;
+  margin: 12px 0 0;
+  color: var(--ink);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
 }
 .back-link {
   display: inline-block;
@@ -663,6 +696,12 @@ table {
   .chart-row {
     grid-template-columns: 38px 1fr;
     gap: 4px;
+  }
+  .team-list .chart-row {
+    grid-template-columns: 56px minmax(0, 1fr);
+  }
+  .team-list .rank {
+    font-size: 3.1rem;
   }
   .rank {
     font-size: 2rem;
